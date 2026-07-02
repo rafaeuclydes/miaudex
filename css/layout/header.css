@@ -1,0 +1,31 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  background-color: var(--cor-primaria);
+  border-bottom: 4px solid var(--cor-destaque);
+}
+
+.cabecalho img {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: var(--font-titulos);
+  color: var(--cor-titulos);
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: var(--cor-destaque);
+  transform: scale(1.2);
+}

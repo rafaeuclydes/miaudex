@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cor-titulos: #000d0d;
+  --cor-textos: #284a61;
+  --cor-primaria: #c2b996;
+  --cor-secundaria: #e7e7cf;
+  --cor-destaque: #ad6e7d;
+
+  --font-titulos: "Geist Pixel", sans-serif;
+  --font-textos: "Montserrat", sans-serif;
+
+  --raio: 8px;
+}
