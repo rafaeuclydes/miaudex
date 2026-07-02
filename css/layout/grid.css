@@ -1,12 +1,22 @@
-.principal {
+.conteudo {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 30px;
   gap: 32px;
+  align-items: start;
 }
 
 .cartoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
   gap: 25px;
+}
+
+.lateral {
+  position: sticky;
+  top: 150px;
+}
+
+.destaque {
+  display: block;
 }
