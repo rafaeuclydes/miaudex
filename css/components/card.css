@@ -1,0 +1,18 @@
+.cartao {
+  text-align: center;
+  padding: 15px 0;
+  background-color: var(--cor-secundaria);
+  border: 2px solid var(--cor-destaque);
+  border-radius: var(--raio);
+}
+
+.cartao img {
+  width: 200px;
+  height: 300px;
+  border-radius: var(--raio);
+}
+
+.cartao h3 {
+  font-family: var(--font-titulos);
+  margin-top: 5px;
+}
