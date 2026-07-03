@@ -9,6 +9,6 @@
 @import "./components/card.css";
 @import "./components/box.css";
 @import "./components/tag.css";
+@import "./components/form.css";
 
 @import "./pages/ong.css";
-@import "./pages/contact.css";

@@ -20,4 +20,5 @@
   font-family: var(--font-textos);
   font-size: 15px;
   text-align: justify;
+  color: var(--cor-textos);
 }
