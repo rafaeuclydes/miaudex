@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajude uma ONG</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" href="./favicon_miaudex.png" type="image/png" />
+
+    <script type="module" src="../js/components/site-header.js"></script>
+    <script type="module" src="../js/components/site-card.js"></script>
+    <script type="module" src="../js/components/site-footer.js"></script>
+  </head>
+  <body>
+    <site-header></site-header>
+
+    <main class="cartoes__ong">
+      <h1 class="titulo-principal">Ajude uma ONG</h1>
+      <div class="cartoes">
+        <site-card
+          imgong="logo-ong"
+          imagem="../assets/image/beco.png"
+          alt="'Logo Beco da esperança"
+          titulo="Beco da Esperança"
+          botao="Conheça"
+          linkong="https://www.instagram.com/becodaesperancaong/"
+        >
+        </site-card>
+        <site-card
+          imgong="logo-ong"
+          imagem="../assets/image/casa.jpg"
+          alt="'Logo Beco da esperança"
+          titulo="Casa dos gatos"
+          botao="Conheça"
+          linkong="https://www.instagram.com/ongcasadosgatos/"
+        >
+        </site-card>
+        <site-card
+          imgong="logo-ong"
+          imagem="../assets/image/crazy.jpg"
+          alt="'Logo Beco da esperança"
+          titulo="Beco da Esperança"
+          botao="Conheça"
+          linkong="https://www.instagram.com/crazycatgang/"
+        >
+        </site-card>
+      </div>
+    </main>
+
+    <site-footer></site-footer>
+  </body>
+</html>

@@ -1,6 +1,11 @@
 class SiteFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `    <footer class="rodape">
+    this.innerHTML = `    
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <footer class="rodape">
       <p>Desenvolvido por Rafael Euclydes</p>
       <div class="icones">
         <a

@@ -12,6 +12,11 @@
   gap: 25px;
 }
 
+.cartoes__ong {
+  display: flex;
+  flex-direction: column;
+}
+
 .lateral {
   position: sticky;
   top: 150px;
@@ -19,4 +24,12 @@
 
 .destaque {
   display: block;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  width: 100%;
+  max-width: 500px;
 }

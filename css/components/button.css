@@ -18,3 +18,8 @@
   border: none;
   color: var(--cor-contraste);
 }
+
+a {
+  text-decoration: none;
+  color: var(--cor-titulo);
+}

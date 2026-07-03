@@ -5,9 +5,9 @@ class SiteHeader extends HTMLElement {
         <img src="../assets/image/logo_miaudex.png" alt="Loco da Miaudex" />
         </a>
         <nav class="menu">
-        <a href="">MiauDex</a>
-        <a href="">Ajude uma ONG</a>
-        <a href="">Contato</a>
+        <a href="./index.html">MiauDex</a>
+        <a href="./ong.html">Ajude uma ONG</a>
+        <a href="./contact.html">Contato</a>
         </nav>
         </header>`;
   }

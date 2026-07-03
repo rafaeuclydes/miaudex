@@ -1,0 +1,25 @@
+.formulario p {
+  font-family: var(--font-textos);
+  font-size: 18px;
+  text-align: justify;
+  font-family: var(--font-textos);
+  color: var(--cor-textos);
+}
+
+.form-dados label {
+  display: block;
+  margin-top: 15px;
+  font-family: var(--font-textos);
+  color: var(--cor-textos);
+}
+
+.form-dados input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.form-dados textarea {
+  resize: none;
+}
