@@ -4,17 +4,25 @@ class SiteCard extends HTMLElement {
     let alt = this.getAttribute("alt");
     let titulo = this.getAttribute("titulo");
     let botao = this.getAttribute("botao");
-    let informacao = this.getAttribute("informacao");
     let classImg = this.getAttribute("imgong");
     let link = this.getAttribute("linkong");
+    let raca = this.getAttribute("raca");
+    let acao;
 
-    this.innerHTML = `<article class="cartao">
+    if (link) {
+      acao = `<a href="${link}" target="_blank>"> <button class="saiba btn">${botao}</button></a>`;
+    } else {
+      acao = `<button class="saiba btn">${botao}</button>`;
+    }
+
+    this.innerHTML = `<article class="cartao" data-raca=${raca}>
             <img class="${classImg}" src="${imagem}" alt="${alt}" />
             <h3>${titulo}</h3>
-            <a href="${link}">
-               <button class="btn">${botao}</button>
-            </a>
-            <div id="informacoes"></div>
+            ${acao}
+            <div class="info-card">
+              <p class="origem"></p>
+              <p class="informacoes"></p>
+            </div>
           </article>`;
   }
 }

@@ -16,3 +16,13 @@
   font-family: var(--font-titulos);
   margin-top: 5px;
 }
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  text-align: justify;
+  font-family: var(--font-textos);
+  font-size: 13px;
+  gap: 5px;
+}

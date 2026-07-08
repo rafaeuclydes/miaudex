@@ -11,6 +11,7 @@
     <script type="module" src="../js/components/site-header.js"></script>
     <script type="module" src="../js/components/site-card.js"></script>
     <script type="module" src="../js/components/site-footer.js"></script>
+    <script src="../js/pages/contact.js" defer></script>
   </head>
   <body>
     <site-header></site-header>
@@ -22,15 +23,26 @@
         compartilhar sua opinião, envie uma mensagem. Seu feedback nos ajuda a
         tornar o projeto cada vez melhor.
       </p>
-      <form class="form-dados">
+      <form id="formulario" class="form-dados">
         <label for="nome">Nome</label>
         <input type="text" name="nome" id="nome" />
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="seu@email.com"
+        />
         <label for="mensagem">Digite sua mensagem</label>
         <textarea rows="15" name="mensagem" id="mensagem"></textarea>
         <button type="submit" class="btn">Enviar</button>
       </form>
+
+      <div id="confirmado">
+        <h2>Mensagem enviada</h2>
+        <p>Obrigado por contribuir com o MiauDex!</p>
+        <button class="btn" id="fechar">OK</button>
+      </div>
     </main>
     <site-footer></site-footer>
   </body>
