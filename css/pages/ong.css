@@ -3,32 +3,11 @@
 }
 
 .logo-ong {
+  margin-top: 25px;
   width: 200px !important;
   height: 200px !important;
 }
 
-#confirmado {
-  display: none;
-}
-
-#confirmado.ativo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--cor-secundaria);
-  border: 3px solid var(--cor-destaque);
-  border-radius: var(--raio);
-  width: 100%;
-  max-width: 500px;
-  font-family: var(--font-titulos);
-  padding: 15px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#confirmado h2 {
-  color: var(--cor-titulos);
+.conteudo2 {
+  margin: 0 30px;
 }

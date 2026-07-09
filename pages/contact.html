@@ -25,16 +25,17 @@
       </p>
       <form id="formulario" class="form-dados">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" />
+        <input type="text" name="nome" id="nome" required />
         <label for="email">Email</label>
         <input
           type="email"
           name="email"
           id="email"
           placeholder="seu@email.com"
+          required
         />
         <label for="mensagem">Digite sua mensagem</label>
-        <textarea rows="15" name="mensagem" id="mensagem"></textarea>
+        <textarea rows="15" name="mensagem" id="mensagem" required></textarea>
         <button type="submit" class="btn">Enviar</button>
       </form>
 

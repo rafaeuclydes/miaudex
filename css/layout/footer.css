@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 4px solid var(--cor-destaque);
-  margin: 15px 0;
-  padding-top: 15px;
+  border: 4px solid var(--cor-destaque);
+  margin: 10px 0;
+  padding: 15px;
   gap: 20px;
+  border-radius: var(--raio);
+  background-color: var(--cor-secundaria);
 }
 
 .rodape p {

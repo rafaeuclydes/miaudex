@@ -16,7 +16,7 @@ class SiteCard extends HTMLElement {
     }
 
     this.innerHTML = `<article class="cartao" data-raca=${raca}>
-            <img class="${classImg}" src="${imagem}" alt="${alt}" />
+            <img class="${classImg}" id="img" src="${imagem}" alt="${alt}" />
             <h3>${titulo}</h3>
             ${acao}
             <div class="info-card">

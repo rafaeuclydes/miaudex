@@ -8,7 +8,7 @@
   border-radius: var(--raio);
   cursor: pointer;
   background: none;
-  color: var(--cor-titulo);
+  color: var(--cor-destaque);
   border: 2px solid var(--cor-destaque);
 }
 

@@ -11,9 +11,6 @@ saibaMais.forEach((botao) => {
       let raca = card.dataset.raca;
       let buscar = await infoCats(raca);
 
-      console.log("Raça:", raca);
-      console.log("Buscar:", buscar);
-
       if (!buscar) {
         buscar = gatosLocais[raca];
       }
@@ -21,7 +18,7 @@ saibaMais.forEach((botao) => {
       origem.innerHTML = `<strong>Origem: </strong>${buscar.origin}`;
       info.innerHTML = `<strong>Informações: </strong> ${buscar.description}`;
     } catch (error) {
-      console.error("deu ruim");
+      console.error("Gato não existe na nossa base ainda!");
     }
   });
 });

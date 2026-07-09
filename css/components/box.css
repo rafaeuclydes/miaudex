@@ -10,6 +10,7 @@
   font-family: var(--font-titulos);
   text-align: center;
   font-size: 22px;
+  color: var(--cor-titulos);
 }
 
 .caixa ul {
