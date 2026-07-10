@@ -8,7 +8,7 @@
 
 .cartoes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   gap: 25px;
 }
 
@@ -32,4 +32,33 @@
   margin: 24px auto;
   width: 100%;
   max-width: 500px;
+}
+
+@media screen and (max-width: 425px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1740px) {
+  .cartoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .formulario {
+    margin: 24px auto;
+    width: 100%;
+    max-width: 250px;
+  }
 }

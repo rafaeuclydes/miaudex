@@ -6,3 +6,9 @@
   margin: 15px 0 5px 0;
   color: var(--cor-textos);
 }
+
+@media screen and (max-width: 765px) {
+  .destaque {
+    font-size: 15px;
+  }
+}

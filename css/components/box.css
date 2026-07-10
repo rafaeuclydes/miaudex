@@ -23,3 +23,13 @@
   text-align: justify;
   color: var(--cor-textos);
 }
+
+@media screen and (max-width: 765px) {
+  .caixa h2 {
+    font-size: 18px;
+  }
+
+  .caixa p {
+    font-size: 13px;
+  }
+}

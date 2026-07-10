@@ -33,3 +33,31 @@
   color: var(--cor-destaque);
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cabecalho img {
+    width: 110px;
+  }
+
+  .menu a {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cabecalho img {
+    width: 90px;
+  }
+
+  .menu a {
+    font-size: 11px;
+    text-align: center;
+  }
+}

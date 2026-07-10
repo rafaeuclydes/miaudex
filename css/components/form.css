@@ -23,3 +23,10 @@ textarea {
 .form-dados textarea {
   resize: none;
 }
+
+@media screen and (max-width: 465px) {
+  .formulario p,
+  label {
+    font-size: 13px;
+  }
+}

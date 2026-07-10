@@ -1,7 +1,7 @@
 class SiteHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<header class="cabecalho">
-        <a href="#">
+        <a href="../pages/index.html">
         <img src="../assets/image/logo_miaudex.png" alt="Loco da Miaudex" />
         </a>
         <nav class="menu">

@@ -16,3 +16,21 @@ body {
   margin-bottom: 25px;
   color: var(--cor-titulos);
 }
+
+@media screen and (max-width: 425px) {
+  .titulo-principal {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titulo-principal {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1740px) {
+  .titulo-principal {
+    font-size: 32px;
+  }
+}
