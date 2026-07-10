@@ -15,8 +15,16 @@ saibaMais.forEach((botao) => {
         buscar = gatosLocais[raca];
       }
 
-      origem.innerHTML = `<strong>Origem: </strong>${buscar.origin}`;
-      info.innerHTML = `<strong>Informações: </strong> ${buscar.description}`;
+      if (card.classList.contains("aberto")) {
+        card.classList.remove("aberto");
+        origem.innerHTML = "";
+        info.innerHTML = "";
+        return;
+      } else {
+        card.classList.add("aberto");
+        origem.innerHTML = `<strong>Origem: </strong>${buscar.origin}`;
+        info.innerHTML = `<strong>Informações: </strong> ${buscar.description}`;
+      }
     } catch (error) {
       console.error("Gato não existe na nossa base ainda!");
     }

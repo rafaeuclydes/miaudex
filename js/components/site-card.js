@@ -12,7 +12,7 @@ class SiteCard extends HTMLElement {
     if (link) {
       acao = `<a href="${link}" target="_blank>"> <button class="saiba btn">${botao}</button></a>`;
     } else {
-      acao = `<button class="saiba btn">${botao}</button>`;
+      acao = `<button class="saiba btn ">${botao}</button>`;
     }
 
     this.innerHTML = `<article class="cartao" data-raca=${raca}>
