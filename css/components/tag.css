@@ -1,0 +1,22 @@
+.destaque {
+  text-align: center;
+  border-bottom: 3px solid var(--cor-destaque);
+  font-weight: bolder;
+  font-family: var(--font-textos);
+  margin: 15px 0 5px 0;
+  color: var(--cor-textos);
+}
+
+.destaque2 {
+  text-align: center;
+  font-family: var(--font-textos);
+  color: var(--cor-textos);
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+@media screen and (max-width: 765px) {
+  .destaque {
+    font-size: 15px;
+  }
+}

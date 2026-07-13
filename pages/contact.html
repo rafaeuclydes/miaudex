@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" href="./favicon_miaudex.png" type="image/png" />
+
+    <script type="module" src="../js/components/site-header.js"></script>
+    <script type="module" src="../js/components/site-card.js"></script>
+    <script type="module" src="../js/components/site-footer.js"></script>
+    <script src="../js/pages/contact.js" defer></script>
+  </head>
+  <body>
+    <site-header></site-header>
+    <main class="formulario">
+      <h3 class="titulo-principal">Entre em contato</h3>
+      <p>
+        O MiauDex está sempre evoluindo! Se você encontrou alguma informação
+        desatualizada, quer sugerir uma nova raça ou simplesmente deseja
+        compartilhar sua opinião, envie uma mensagem. Seu feedback nos ajuda a
+        tornar o projeto cada vez melhor.
+      </p>
+      <form id="formulario" class="form-dados">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="seu@email.com"
+          required
+        />
+        <label for="mensagem">Digite sua mensagem</label>
+        <textarea rows="15" name="mensagem" id="mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+
+      <div id="confirmado">
+        <h2>Mensagem enviada</h2>
+        <p>Obrigado por contribuir com o MiauDex!</p>
+        <button class="btn" id="fechar">OK</button>
+      </div>
+    </main>
+    <site-footer></site-footer>
+  </body>
+</html>

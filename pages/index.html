@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt=BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiauDex</title>
+
+    <link
+      rel="shortcut icon"
+      href="./favicon_miaudex.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+  
+    <script type="module" src="../js/components/site-header.js" defer></script>
+    <script type="module" src="../js/components/site-footer.js" defer></script>
+    <script type="module" src="../js/components/site-card.js" defer></script>
+    <script type="module" src="../js/pages/main.js" defer></script>
+  </head>
+  <body>
+    <site-header></site-header>
+
+    <div class="conteudo">
+      <main class="principal">
+        <h1 class="titulo-principal">Explore o mundo dos Gatos</h1>
+        <p class="destaque2">Descubra informações sobre algumas raças de gatos</p>
+        <div class="cartoes">
+          <site-card
+            imagem="../assets/image/bengal.jpg"
+            alt="Foto gato Bengal"
+            titulo="Bengal"
+            raca="Bengal"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card
+            imagem="../assets/image/bombay.jpg"
+            alt="Foto gato Bombay"
+            titulo="Bombay"
+            raca="Bombay"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card
+            imagem="../assets/image/persa.jpg"
+            alt="Foto gato Persa"
+            titulo="Persa"
+            raca="Persian"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card
+            imagem="../assets/image/siames.jpg"
+            alt="Foto gato Siamês"
+            titulo="Siamês"
+            raca="Siamese"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card
+            imagem="../assets/image/sphynx.jpg"
+            alt="Foto gato Sphynx"
+            titulo="Sphynx"
+            raca="Sphynx"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card
+            imagem="../assets/image/gramps.jpeg"
+            alt="Foto gato Bolo formigueiro"
+            titulo="Bolo formigueiro"
+            raca="Bolo"
+            botao="Saiba mais"
+          >
+          </site-card>             
+          <site-card  
+            imagem="../assets/image/birman.jpg"
+            alt="Foto gato Birman"
+            titulo="Birman"
+            raca="Birman"
+            botao="Saiba mais"
+          >
+          </site-card>
+          <site-card  
+            imagem="../assets/image/burmese.jpg"
+            alt="Foto gato Bolo Burmese"
+            titulo="Burmese"
+            raca="Burmese"
+            botao="Saiba mais"
+          >
+          </site-card>
+         
+        </main>
+
+          
+      <aside class="lateral">
+        <div class="caixa">
+          <h2>Você sabia?</h2>
+          <ul>
+            <li>
+              <span class="destaque">🐾 O nariz de cada gato é único</span>
+              <p>
+                Assim como as impressões digitais dos humanos, cada gato possui um padrão exclusivo em seu nariz.
+              </p>
+            </li>
+            <li>
+              <span class="destaque">🐱 Os gatos se comunicam com os humanos pelo miado</span>
+              <p>
+                Entre eles, gatos adultos quase não miam. O miado é uma forma de chamar a atenção e se comunicar principalmente com as pessoas.
+              </p>
+            </li>
+            <li>
+              <span class="destaque"
+                >👂🏼 Os gatos têm uma audição incrível</span
+              >
+              <p>
+                Eles conseguem ouvir sons em frequências muito mais altas do que os humanos e até localizar pequenos animais apenas pelo barulho.
+              </p>
+            </li>
+            <li>
+              <span class="destaque"
+                >😴 Gatos passam grande parte do dia dormindo</span
+              >
+              <p>
+                Em média, um gato adulto dorme entre 12 e 16 horas por dia, podendo chegar a 20 horas quando filhote ou idoso.
+              </p>
+            </li>
+            <li>
+              <span class="destaque">😻 O ronronar pode ajudar na recuperação</span>
+              <p>
+                Além de demonstrar conforto e bem-estar, o ronronar ocorre em frequências que estudos sugerem estar associadas à cicatrização de ossos e tecidos.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <site-footer></site-footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--cor-primaria);
+  line-height: 1.5;
+}
+
+.titulo-principal {
+  font-family: var(--font-titulos);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: var(--cor-titulos);
+}
+
+@media screen and (max-width: 425px) {
+  .titulo-principal {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titulo-principal {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1740px) {
+  .titulo-principal {
+    font-size: 32px;
+  }
+}

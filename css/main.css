@@ -1,0 +1,14 @@
+@import "./base/reset.css";
+@import "./base/variables.css";
+
+@import "./layout/header.css";
+@import "./layout/grid.css";
+@import "./layout/footer.css";
+
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/box.css";
+@import "./components/tag.css";
+@import "./components/form.css";
+
+@import "./pages/ong.css";

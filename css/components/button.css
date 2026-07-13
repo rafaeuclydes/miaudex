@@ -1,0 +1,25 @@
+.btn {
+  width: 100%;
+  max-width: 150px;
+  font-family: var(--font-titulos);
+  padding: 8px 0;
+  margin-top: 8px;
+  font-size: 15px;
+  border-radius: var(--raio);
+  cursor: pointer;
+  background: none;
+  color: var(--cor-destaque);
+  border: 2px solid var(--cor-destaque);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: var(--cor-destaque);
+  border: none;
+  color: var(--cor-contraste);
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-titulo);
+}

@@ -1,0 +1,35 @@
+.caixa {
+  background-color: var(--cor-secundaria);
+  padding: 32px;
+  line-height: 1.5;
+  border: 2px solid var(--cor-destaque);
+  border-radius: var(--raio);
+}
+
+.caixa h2 {
+  font-family: var(--font-titulos);
+  text-align: center;
+  font-size: 22px;
+  color: var(--cor-titulos);
+}
+
+.caixa ul {
+  list-style: none;
+}
+
+.caixa p {
+  font-family: var(--font-textos);
+  font-size: 15px;
+  text-align: justify;
+  color: var(--cor-textos);
+}
+
+@media screen and (max-width: 765px) {
+  .caixa h2 {
+    font-size: 18px;
+  }
+
+  .caixa p {
+    font-size: 13px;
+  }
+}
