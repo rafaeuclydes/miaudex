@@ -6,8 +6,8 @@ class SiteHeader extends HTMLElement {
         </a>
         <nav class="menu">
         <a href="./index.html">MiauDex</a>
-        <a href="./pages/ong.html">Ajude uma ONG</a>
-        <a href="./pages/contact.html">Contato</a>
+        <a href="./ong.html">Ajude uma ONG</a>
+        <a href="./contact.html">Contato</a>
         </nav>
         </header>`;
   }
